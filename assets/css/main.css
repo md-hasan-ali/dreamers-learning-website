@@ -116,3 +116,32 @@ button.box-btn {
     border: none;
     border-radius: 5px;
 }
+.cource-button {
+    text-align: center;
+    margin-top:35px;
+}
+.cource-button button {
+    background: #F2F2F2;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 5px;
+}
+
+
+/* Online-Cource Area   */
+.online-cource-area {
+    padding: 40px 0;
+}
+.online-cource {
+    background-color: #F2F2F2;
+}
+.online-cource-img img {
+    width: 100%;
+}
+.online-cource-img {
+    margin-top: -53px;
+}
+.online-couce-left {
+    width: 72%;
+    padding-left: 40px;
+}
