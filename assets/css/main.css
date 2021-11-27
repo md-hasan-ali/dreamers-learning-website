@@ -13,6 +13,17 @@ body {
     color:#3F5B51;
     font-weight: bold;
 }
+.section-title {
+    text-align: center;
+    margin-bottom:50px;
+}
+.section-title h2 {
+    font-size: 42px;
+    color: #013A6D;
+}
+.text-highlight {
+    color:#F57C00;
+}
 
 /* Banner css  */
 .banner-area {
@@ -36,18 +47,16 @@ span.instructor {
 .about-area {
     padding:45px 0;
 }
-.section-title {
-    text-align: center;
-    margin-bottom:50px;
-}
 .single-about img {
     width: 55px;
     margin-bottom: 22px;
 }
 .single-about {
     padding: 10px;
-    border: 1px solid gray;
-    box-shadow: 9px 9px 15px grey;
+    border:1px solid #E0E0E0;
+    box-shadow: 9px 9px 15px #bdb7b7;
+    transition:.5s;
+    border-radius: 5px;
 }
 .single-about h3 {
     font-size: 15px;
@@ -55,4 +64,8 @@ span.instructor {
 
 .single-about p {
     font-size: 14px;
+}
+.single-about:hover {
+    box-shadow: 15px 15px 22px #FDDDBE;
+    border-color: #FDDDBE;
 }
