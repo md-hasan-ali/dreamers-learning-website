@@ -1,0 +1,58 @@
+/* Common Css Start  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background-color: #fff;
+   color:#000;
+   font-size: 16px;
+}
+.text-style {
+    color:#3F5B51;
+    font-weight: bold;
+}
+
+/* Banner css  */
+.banner-area {
+    background: #FCC700;
+}
+.banner-left-content h1 {
+    font-weight: normal;
+}
+button.banner-btn {
+    border: none;
+    background: #fff;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+span.instructor {
+    display: block;
+    padding-top: 14px;
+}
+
+/* about css design  */
+.about-area {
+    padding:45px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom:50px;
+}
+.single-about img {
+    width: 55px;
+    margin-bottom: 22px;
+}
+.single-about {
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 9px 9px 15px grey;
+}
+.single-about h3 {
+    font-size: 15px;
+}
+
+.single-about p {
+    font-size: 14px;
+}
